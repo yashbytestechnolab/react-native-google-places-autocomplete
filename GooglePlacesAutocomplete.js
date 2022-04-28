@@ -878,6 +878,7 @@ GooglePlacesAutocomplete.propTypes = {
   onPress: PropTypes.func,
   onTimeout: PropTypes.func,
   placeholder: PropTypes.string,
+  placeholderTextColor: PropTypes.string,
   predefinedPlaces: PropTypes.array,
   predefinedPlacesAlwaysVisible: PropTypes.bool,
   preProcess: PropTypes.func,
@@ -928,6 +929,7 @@ GooglePlacesAutocomplete.defaultProps = {
   onPress: () => {},
   onTimeout: () => console.warn('google places autocomplete: request timeout'),
   placeholder: '',
+  placeholderTextColor: '#808080',
   predefinedPlaces: [],
   predefinedPlacesAlwaysVisible: false,
   query: {
