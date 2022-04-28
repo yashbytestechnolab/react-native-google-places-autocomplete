@@ -817,6 +817,7 @@ export const GooglePlacesAutocomplete = forwardRef((props, ref) => {
             ]}
             value={stateText}
             placeholder={props.placeholder}
+            placeholderTextColor={props.placeholderTextColor}
             onFocus={
               onFocus
                 ? () => {
